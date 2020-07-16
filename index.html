@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://m.w3newbie.com/you-tube.css" />
+
+    <title>Aseel</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+  </head>
+  <style>
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+      background-color: rgb(32, 32, 32);
+      color: white;
+     
+
+    }
+    .navbar-brand{
+      float: left;
+      min-height: 55px;
+      padding: 10px;
+    }
+    .carousel-caption {
+      top: 50%;
+      transform: translateY(-50%);
+      text-transform: uppercase;
+    }
+    .container {
+      margin: 4% auto;
+    }
+    .btn {
+      font-size: 18px;
+      color: white;
+      padding: 12px 22px;
+      background: rgb(158, 158, 158);
+    }
+    #icon {
+      max-width: 150px;
+      margin: 1% auto;
+    }
+    .fa {
+      padding: 20px;
+      color: white;
+      font-size: 25px;
+    }
+    .fa:hover {
+      color: #d5d5d5;
+      text-decoration: none;
+    }
+    @media (max-width: 600px) {
+      .carousel-caption {
+        display: none;
+      }
+      #icon {
+        max-width: 150px;
+      }
+      h2 {
+        font-size: 1.7em;
+      }
+    }
+    footer {
+      width: 100%;
+      background: rgb(32, 32, 32);
+      padding: 3%;
+      color: white;
+    }
+    .mylogo{
+      width: 80px;
+      padding:0 ;
+      margin: 0;
+      float: left;
+      
+    }
+
+    @media (max-width: 900px) {
+      .fa {
+        font-size: 20px;
+        padding: 10px;
+      }
+    }
+  </style>
+  <body>
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle"
+            data-toggle="collapse"
+            data-target="#myNavbar"
+          >
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/index.html"> <img class="mylogo" src="/mylogo2.png"/></a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="/index.html">Home</a></li>
+            <li><a href="/Aboutme.html">About Me</a></li>
+            <li><a href="/skills.html">Skills</a></li>
+            <li><a href="#">Projects</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="0"></li>
+        <li data-target="#myCarousel" data-slide-to="0"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img src="/christopher-gower-m_HRfLhgABo-unsplash.jpg" />
+          <div class="carousel-caption">
+            <h1>Welcome To My Profile</h1>
+            <br />
+            
+          </div>
+        </div>
+        <!--end active-->
+        <div class="item">
+          <img src="/xps-DYAf-8UTFN8-unsplash.jpg" />
+        </div>
+        <div class="item">
+          <img src="/florian-olivo-4hbJ-eymZ1o-unsplash.jpg" />
+        </div>
+      </div>
+      <!-- start sliders control-->
+      <a
+        class="left carousel-control"
+        href="#myCarousel"
+        role="button"
+        data-slide="prev"
+      >
+        <span
+          class="glyphicon glyphicon-chevron-left"
+          area-hidden="true"
+        ></span>
+        <span class="sr-only">Privios</span>
+      </a>
+      <a
+        class="right carousel-control"
+        href="#myCarousel"
+        role="button"
+        data-slide="prev"
+      >
+        <span
+          class="glyphicon glyphicon-chevron-right"
+          area-hidden="true"
+        ></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    <!--end of photo slider-->
+
+    <div class="container text-center">
+      <h2>What I'm Using</h2>
+      <div class="row">
+        <div class="col-sm-4">
+          <img src="/img/html5.png" id="icon" />
+          <h4>HTML5</h4>
+        </div>
+        <div class="col-sm-4">
+          <img src="/img/bootstrap.png" id="icon" />
+          <h4>Bootstrap</h4>
+        </div>
+        <div class="col-sm-4">
+          <img src="/img/css3.png" id="icon" />
+          <h4>CSS3</h4>
+        </div>
+      </div>
+    </div>
+
+    <footer class="container-fluid text-center">
+      <div class="row">
+        <h3>Contact Me</h3>
+        <a href="https://twitter.com/AlbassamAseel" class="fa fa-twitter"></a>
+        <a href="https://www.linkedin.com/in/aseel-albassam-a5a641183/" class="fa fa-linkedin"></a>
+        <a href="https://github.com/AseelAlbassam" class="fa fa-github"></a>
+        <a href="mailto: a.nalbassam18@gmail.com" class="fa fa-envelope"></a>
+
+      </div>
+    </footer>
+
+    
+  </body>
+</html>
